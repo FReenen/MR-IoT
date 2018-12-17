@@ -1,0 +1,20 @@
+{
+  "name": "IoT connector test",
+  "version": "0.0.0",
+  "description": "A test script for a IoT project",
+  "keywords": [],
+  "author": {
+    "name": "Mats van reenen",
+    "email": "mail@matsvanreenen.nl"
+  },
+  "licenses": [
+    {
+      "type": "GNU GPL v2",
+      "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
+    }
+  ],
+  "main": "./src",
+  "dependencies": {
+    "async": "*"
+  }
+}
