@@ -1,10 +1,15 @@
 {
-  "name": "IoT connector test",
+  "name": "MR-IoT",
   "version": "0.0.0",
-  "description": "A test script for a IoT project",
-  "keywords": [],
+  "description": "A server how redirect all action request for home automation IoT devices to the device with a really easy REST API.",
+  "keywords": [
+    "IoT",
+    "Home Automation",
+    "Home Inprovement",
+    "Broker"
+  ],
   "author": {
-    "name": "Mats van reenen",
+    "name": "Mats van Reenen",
     "email": "mail@matsvanreenen.nl"
   },
   "licenses": [
