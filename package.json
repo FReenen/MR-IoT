@@ -12,14 +12,11 @@
     "name": "Mats van Reenen",
     "email": "mail@matsvanreenen.nl"
   },
-  "licenses": [
-    {
-      "type": "GNU GPL v2",
-      "url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"
-    }
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MReenen/MR-IoT.git"
+  },
+  "license": "GPL-3.0",
   "main": "./src",
-  "dependencies": {
-    "async": "*"
-  }
+  "dependencies": {}
 }
