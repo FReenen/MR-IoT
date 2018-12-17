@@ -15,9 +15,9 @@ module.exports = function(query){
     if(query.hasOwnProperty(query.device.values[i].name)){
       var value = query[query.device.values[i].name]
 
-      switch (query.device.value[i].type) {
+      switch (query.device.values[i].type) {
         case "number":
-          if(value > query.device.value[i].max){
+          if(value > query.device.values[i].max){
             return 3 // ERROR 3: invalid value
           }
           break;

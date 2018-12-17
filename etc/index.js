@@ -16,7 +16,6 @@ var server = http.createServer(function (req, res) {
   }
 
   // split dirrectory and query from url
-  // TODO: accept GET and POST.
   [dir, queryTmp] = req.url.split(/\?(.+)/)
   if(!queryTmp){
     queryTmp = req.read();

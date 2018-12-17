@@ -1,4 +1,5 @@
 
+// TODO: get data from a database
 devices = {
   simulation: {
     addr: "localhost:8081",
